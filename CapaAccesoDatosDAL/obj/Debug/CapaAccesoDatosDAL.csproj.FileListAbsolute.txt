@@ -1,0 +1,9 @@
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaAccesoDatosDAL\bin\Debug\CapaAccesoDatosDAL.dll
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaAccesoDatosDAL\bin\Debug\CapaAccesoDatosDAL.pdb
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaAccesoDatosDAL\bin\Debug\CapaEntidadBE.dll
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaAccesoDatosDAL\bin\Debug\CapaEntidadBE.pdb
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaAccesoDatosDAL\obj\Debug\CapaAccesoDatosDAL.csproj.AssemblyReference.cache
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaAccesoDatosDAL\obj\Debug\CapaAccesoDatosDAL.csproj.CoreCompileInputs.cache
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaAccesoDatosDAL\obj\Debug\CapaAccesoDatosDAL.csproj.CopyComplete
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaAccesoDatosDAL\obj\Debug\CapaAccesoDatosDAL.dll
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaAccesoDatosDAL\obj\Debug\CapaAccesoDatosDAL.pdb

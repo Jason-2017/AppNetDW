@@ -1,0 +1,11 @@
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaNegocioBLL\bin\Debug\CapaNegocioBLL.dll
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaNegocioBLL\bin\Debug\CapaNegocioBLL.pdb
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaNegocioBLL\bin\Debug\CapaAccesoDatosDAL.dll
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaNegocioBLL\bin\Debug\CapaEntidadBE.dll
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaNegocioBLL\bin\Debug\CapaAccesoDatosDAL.pdb
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaNegocioBLL\bin\Debug\CapaEntidadBE.pdb
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaNegocioBLL\obj\Debug\CapaNegocioBLL.csproj.AssemblyReference.cache
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaNegocioBLL\obj\Debug\CapaNegocioBLL.csproj.CoreCompileInputs.cache
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaNegocioBLL\obj\Debug\CapaNegocioBLL.csproj.CopyComplete
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaNegocioBLL\obj\Debug\CapaNegocioBLL.dll
+C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaNegocioBLL\obj\Debug\CapaNegocioBLL.pdb
