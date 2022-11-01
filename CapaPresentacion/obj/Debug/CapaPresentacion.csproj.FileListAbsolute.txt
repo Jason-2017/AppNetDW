@@ -18,3 +18,23 @@ C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug
 C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
 C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
 C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Mantenimientos.resources
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\bin\Debug\CapaEntidadBE.dll
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\bin\Debug\CapaNegocioBLL.dll
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\bin\Debug\CapaAccesoDatosDAL.dll
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\bin\Debug\CapaEntidadBE.pdb
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\bin\Debug\CapaNegocioBLL.pdb
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\bin\Debug\CapaAccesoDatosDAL.pdb
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Form1.resources
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Mantenimientos.resources
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

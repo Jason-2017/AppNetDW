@@ -13,7 +13,15 @@ namespace CapaAccesoDatosDAL
         private SqlConnection conexion;
         private void abrir()
         {
-            conexion = new SqlConnection("Data Source=DESKTOP-1PIKBKT; Initial Catalog=MiBuenSeguro; Integrated Security=SSPI;");
+            SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
+
+            builder.DataSource = "sqlumgdw.database.windows.net";
+            builder.UserID = "sqlumgdw";
+            builder.Password = "D3sarr0llo2022";
+            builder.InitialCatalog = "DB_MIBUENSEGURO";
+
+            //conexion = new SqlConnection("Data Source=sqlumgdw.database.windows.net; Initial Catalog=DB_MIBUENSEGURO; Integrated Security=SSPI;");
+            conexion = new SqlConnection(builder.ConnectionString);
             conexion.Open();
         }
         private void cerrar()
