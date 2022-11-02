@@ -38,3 +38,4 @@ C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\obj\D
 C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.MantenimientoProveedor.resources
