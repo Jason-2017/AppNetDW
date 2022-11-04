@@ -94,5 +94,10 @@ namespace CapaPresentacion
             textBox8.Text = inter.Fecha_inicio_cobertura;
             textBox9.Text = inter.Monto_de_cobertura;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

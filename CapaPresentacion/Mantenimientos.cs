@@ -35,5 +35,11 @@ namespace CapaPresentacion
             frm2.Show();
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MantenimientoProveedor mantenimientoProveedor = new MantenimientoProveedor();
+            mantenimientoProveedor.Show();
+        }
     }
 }
