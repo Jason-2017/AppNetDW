@@ -201,6 +201,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "MantenimientoProveedor";
             this.Text = "Mantenimiento Proveedor";
+            this.Load += new System.EventHandler(this.MantenimientoProveedor_Load);
             this.panel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

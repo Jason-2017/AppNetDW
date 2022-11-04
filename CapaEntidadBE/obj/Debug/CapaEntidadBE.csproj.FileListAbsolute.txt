@@ -4,3 +4,9 @@ C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaEntidadBE\obj\Debug\Ca
 C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaEntidadBE\obj\Debug\CapaEntidadBE.csproj.CoreCompileInputs.cache
 C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaEntidadBE\obj\Debug\CapaEntidadBE.dll
 C:\Users\Cristian Brito\source\repos\CapaPresentacion\CapaEntidadBE\obj\Debug\CapaEntidadBE.pdb
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaEntidadBE\bin\Debug\CapaEntidadBE.dll
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaEntidadBE\bin\Debug\CapaEntidadBE.pdb
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaEntidadBE\obj\Debug\CapaEntidadBE.csproj.AssemblyReference.cache
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaEntidadBE\obj\Debug\CapaEntidadBE.csproj.CoreCompileInputs.cache
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaEntidadBE\obj\Debug\CapaEntidadBE.dll
+C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaEntidadBE\obj\Debug\CapaEntidadBE.pdb

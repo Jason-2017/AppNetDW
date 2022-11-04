@@ -12,6 +12,7 @@ namespace CapaPresentacion
 {
     public partial class MantenimientoProveedor : Form
     {
+        CapaNegocioBLL.PROVEEDOR gestor = new CapaNegocioBLL.PROVEEDOR();
         public MantenimientoProveedor()
         {
             InitializeComponent();
@@ -19,6 +20,13 @@ namespace CapaPresentacion
 
         private void label1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void MantenimientoProveedor_Load(object sender, EventArgs e)
+        {
+            dgvMantProv.DataBindings.Clear();
+            dgvMantProv.DataSource = gestor.listar();
 
         }
     }
