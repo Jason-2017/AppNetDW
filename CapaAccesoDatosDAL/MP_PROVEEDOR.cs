@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,9 +23,29 @@ namespace CapaAccesoDatosDAL
                 proveedor.idProveedor = int.Parse(item["cod_proveedor"].ToString());
                 proveedor.nit = item["nit"].ToString();
                 proveedor.nombreRazonSocial = item["nombre"].ToString();
+                proveedor.estado = item["estado"].ToString();
                 proveedores.Add(proveedor);
             }
             return proveedores;
+        }
+
+        public int insertar(CapaEntidadBE.PROVEEDOR proveedor)
+        {
+            List<SqlParameter> parameters = new List<SqlParameter>();
+            parameters.Add(acceso.crearParamentro("@pnit", proveedor.nit));
+            parameters.Add(acceso.crearParamentro("@pnombre", proveedor.nombreRazonSocial));
+            parameters.Add(acceso.crearParamentro("@pestado", "Activo"));
+
+            return acceso.ecribir("INSERTAR_PROVEEDOR", parameters);
+        }
+
+        public int ExisteProveedor(CapaEntidadBE.PROVEEDOR proveedor)
+        {
+            List<SqlParameter> parameters = new List<SqlParameter>();
+            parameters.Add(acceso.crearParamentro("@pnit", proveedor.nit));
+            parameters.Add(acceso.crearParamentro("@pnombre", proveedor.nombreRazonSocial));
+
+            return acceso.ExistePaciente_Proveedor("VERIFICAR_PROVEEDOR", parameters);
         }
     }
 }

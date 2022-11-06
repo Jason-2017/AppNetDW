@@ -12,5 +12,18 @@ namespace CapaNegocioBLL
         public List<CapaEntidadBE.PROVEEDOR> listar() {
             return mp.listar();
         }
+
+        public int ExisteProveedor(CapaEntidadBE.PROVEEDOR proveedor) 
+        {
+            return mp.ExisteProveedor(proveedor);
+        }
+
+        public int grabar(CapaEntidadBE.PROVEEDOR proveedor)
+        {
+            int res;
+            res = mp.insertar(proveedor);
+            return res;
+        }
+        
     }
 }
