@@ -33,7 +33,6 @@
             this.lblMantProvAccError = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnMantProvEliminar = new System.Windows.Forms.Button();
-            this.btnMantProvModificar = new System.Windows.Forms.Button();
             this.btnMantProvAgregar = new System.Windows.Forms.Button();
             this.dgvMantProv = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -68,9 +67,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox3.Controls.Add(this.lblMantProvAccError);
             this.groupBox3.ForeColor = System.Drawing.Color.White;
-            this.groupBox3.Location = new System.Drawing.Point(527, 419);
+            this.groupBox3.Location = new System.Drawing.Point(302, 419);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(492, 48);
+            this.groupBox3.Size = new System.Drawing.Size(717, 48);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Acciones / Errores";
@@ -91,12 +90,11 @@
             // 
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.groupBox2.Controls.Add(this.btnMantProvEliminar);
-            this.groupBox2.Controls.Add(this.btnMantProvModificar);
             this.groupBox2.Controls.Add(this.btnMantProvAgregar);
             this.groupBox2.ForeColor = System.Drawing.Color.White;
             this.groupBox2.Location = new System.Drawing.Point(17, 418);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(503, 49);
+            this.groupBox2.Size = new System.Drawing.Size(279, 49);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Acciones";
@@ -104,22 +102,13 @@
             // btnMantProvEliminar
             // 
             this.btnMantProvEliminar.ForeColor = System.Drawing.Color.Black;
-            this.btnMantProvEliminar.Location = new System.Drawing.Point(266, 13);
+            this.btnMantProvEliminar.Location = new System.Drawing.Point(173, 13);
             this.btnMantProvEliminar.Name = "btnMantProvEliminar";
             this.btnMantProvEliminar.Size = new System.Drawing.Size(86, 30);
             this.btnMantProvEliminar.TabIndex = 2;
             this.btnMantProvEliminar.Text = "Eliminar";
             this.btnMantProvEliminar.UseVisualStyleBackColor = true;
-            // 
-            // btnMantProvModificar
-            // 
-            this.btnMantProvModificar.ForeColor = System.Drawing.Color.Black;
-            this.btnMantProvModificar.Location = new System.Drawing.Point(173, 13);
-            this.btnMantProvModificar.Name = "btnMantProvModificar";
-            this.btnMantProvModificar.Size = new System.Drawing.Size(86, 30);
-            this.btnMantProvModificar.TabIndex = 1;
-            this.btnMantProvModificar.Text = "Modificar";
-            this.btnMantProvModificar.UseVisualStyleBackColor = true;
+            this.btnMantProvEliminar.Click += new System.EventHandler(this.btnMantProvEliminar_Click);
             // 
             // btnMantProvAgregar
             // 
@@ -144,6 +133,7 @@
             this.dgvMantProv.RowTemplate.Height = 24;
             this.dgvMantProv.Size = new System.Drawing.Size(1002, 247);
             this.dgvMantProv.TabIndex = 1;
+            this.dgvMantProv.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMantProv_CellValueChanged);
             // 
             // groupBox1
             // 
@@ -220,7 +210,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btnMantProvEliminar;
-        private System.Windows.Forms.Button btnMantProvModificar;
         private System.Windows.Forms.Button btnMantProvAgregar;
         private System.Windows.Forms.DataGridView dgvMantProv;
         private System.Windows.Forms.Label label1;

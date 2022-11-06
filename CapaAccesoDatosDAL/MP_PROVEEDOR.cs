@@ -47,5 +47,24 @@ namespace CapaAccesoDatosDAL
 
             return acceso.ExistePaciente_Proveedor("VERIFICAR_PROVEEDOR", parameters);
         }
+
+        public int actualizar(CapaEntidadBE.PROVEEDOR proveedor) 
+        {
+            List<SqlParameter> parameters = new List<SqlParameter>();
+            parameters.Add(acceso.crearParamentro("@pidproveedor", proveedor.idProveedor));
+            parameters.Add(acceso.crearParamentro("@pnit", proveedor.nit));
+            parameters.Add(acceso.crearParamentro("@pnombre", proveedor.nombreRazonSocial));
+            parameters.Add(acceso.crearParamentro("@pestado", proveedor.estado));
+
+            return acceso.ecribir("ACTUALIZAR_PROVEEDOR", parameters);
+        }
+
+        public int eliminar(int idProveedor)
+        {
+            List<SqlParameter> parameters = new List<SqlParameter>();
+            parameters.Add(acceso.crearParamentro("@pidproveedor", idProveedor));
+
+            return acceso.ecribir("ELIMINAR_PROVEEDOR", parameters);
+        }
     }
 }

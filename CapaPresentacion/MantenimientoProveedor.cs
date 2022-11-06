@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace CapaPresentacion
 {
@@ -45,6 +46,28 @@ namespace CapaPresentacion
                 dgvMantProv.DataBindings.Clear();
                 dgvMantProv.DataSource = gestor.listar();
             }
+        }
+
+        private void dgvMantProv_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        {
+            CapaEntidadBE.PROVEEDOR proveedor = new CapaEntidadBE.PROVEEDOR();
+            proveedor.idProveedor = Convert.ToInt32(dgvMantProv["idProveedor", e.RowIndex].Value);
+            proveedor.nit = dgvMantProv["nit", e.RowIndex].Value.ToString();
+            proveedor.nombreRazonSocial = Convert.ToString(dgvMantProv["nombreRazonSocial", e.RowIndex].Value);
+            proveedor.estado = dgvMantProv["estado", e.RowIndex].Value.ToString();
+            gestor.actualizar(proveedor);
+            dgvMantProv.DataBindings.Clear();
+            dgvMantProv.DataSource = gestor.listar();
+        }
+
+        private void btnMantProvEliminar_Click(object sender, EventArgs e)
+        {
+            int idProveedor = Convert.ToInt32(dgvMantProv["idProveedor", dgvMantProv.CurrentCell.RowIndex].Value);
+            int res = gestor.eliminar(idProveedor);
+            var x = res == -1 ? "Proveedor eliminado con exito" : String.Empty;
+            lblMantProvAccError.Text = x.ToString();
+            dgvMantProv.DataBindings.Clear();
+            dgvMantProv.DataSource = gestor.listar();
         }
     }
 }

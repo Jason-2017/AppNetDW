@@ -24,6 +24,20 @@ namespace CapaNegocioBLL
             res = mp.insertar(proveedor);
             return res;
         }
+
+        public int actualizar(CapaEntidadBE.PROVEEDOR proveedor) 
+        {
+            int res;
+            res = mp.actualizar(proveedor);
+            return res;
+        }
+
+        public int eliminar(int idProveedor)
+        {
+            int res;
+            res = mp.eliminar(idProveedor);
+            return res;
+        }
         
     }
 }
