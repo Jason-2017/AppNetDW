@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace CapaAccesoDatosDAL
 {
@@ -63,6 +64,13 @@ namespace CapaAccesoDatosDAL
             return tabla;
         }
 
+        public int ExistePaciente_Proveedor(string nombre, List<SqlParameter> parametros = null)
+        {
+            abrir();
+            var command = CrearComando(nombre, parametros);
+            return Convert.ToInt32(command.ExecuteScalar());
+        }
+
         public int ecribir(string nombre, List<SqlParameter> paramentros)
         {
             int filasAfectadas = 0;
@@ -89,8 +97,6 @@ namespace CapaAccesoDatosDAL
             return parametro;
         }
 
-
-
         public SqlParameter crearParamentro(string nombre, int valor)
         {
             SqlParameter parametro = new SqlParameter();
@@ -99,5 +105,6 @@ namespace CapaAccesoDatosDAL
             parametro.DbType = DbType.Int32;
             return parametro;
         }
+
     }
 }

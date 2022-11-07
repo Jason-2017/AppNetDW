@@ -11,6 +11,7 @@ namespace CapaEntidadBE
         public int idProveedor { get; set; }
         public string nit { get; set; }
         public string nombreRazonSocial { get; set; }
+        public string estado { get; set; }
 
     }
 }
