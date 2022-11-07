@@ -24,6 +24,20 @@ namespace CapaNegocioBLL
             return res;
         }
 
+        public int insertar(CapaEntidadBE.PACIENTE paciente)
+        {
+
+            return mp.insertar(paciente);
+
+        }
+
+        public int editar(CapaEntidadBE.PACIENTE paciente)
+        {
+
+            return mp.editar(paciente);
+
+        }
+
         public int borrar(CapaEntidadBE.PACIENTE paciente)
         {
             return mp.borrar(paciente);

@@ -29,6 +29,7 @@ namespace CapaAccesoDatosDAL
             return proveedores;
         }
 
+<<<<<<< HEAD
         public int insertar(CapaEntidadBE.PROVEEDOR proveedor)
         {
             List<SqlParameter> parameters = new List<SqlParameter>();
@@ -66,5 +67,7 @@ namespace CapaAccesoDatosDAL
 
             return acceso.ecribir("ELIMINAR_PROVEEDOR", parameters);
         }
+=======
+>>>>>>> 3d6cdc7ae1e13526a73006fc580bd99c19b4b3ee
     }
 }

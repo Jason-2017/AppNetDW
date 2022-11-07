@@ -10,3 +10,9 @@ C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaEntidadBE\obj\Debu
 C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaEntidadBE\obj\Debug\CapaEntidadBE.csproj.CoreCompileInputs.cache
 C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaEntidadBE\obj\Debug\CapaEntidadBE.dll
 C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaEntidadBE\obj\Debug\CapaEntidadBE.pdb
+C:\Users\Cristian Brito\Desktop\WEB-11.22\AppNetDW\CapaEntidadBE\bin\Debug\CapaEntidadBE.dll
+C:\Users\Cristian Brito\Desktop\WEB-11.22\AppNetDW\CapaEntidadBE\bin\Debug\CapaEntidadBE.pdb
+C:\Users\Cristian Brito\Desktop\WEB-11.22\AppNetDW\CapaEntidadBE\obj\Debug\CapaEntidadBE.csproj.AssemblyReference.cache
+C:\Users\Cristian Brito\Desktop\WEB-11.22\AppNetDW\CapaEntidadBE\obj\Debug\CapaEntidadBE.csproj.CoreCompileInputs.cache
+C:\Users\Cristian Brito\Desktop\WEB-11.22\AppNetDW\CapaEntidadBE\obj\Debug\CapaEntidadBE.dll
+C:\Users\Cristian Brito\Desktop\WEB-11.22\AppNetDW\CapaEntidadBE\obj\Debug\CapaEntidadBE.pdb
