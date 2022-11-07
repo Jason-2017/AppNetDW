@@ -12,7 +12,7 @@ namespace CapaAccesoDatosDAL
         private Acceso acceso = new Acceso();
 
         public List<CapaEntidadBE.PROVEEDOR> listar() {
-            DataTable tabla = acceso.leer("proveedor", null);
+            DataTable tabla = acceso.leer("LISTAR_PROVEEDORES", null);
             List<CapaEntidadBE.PROVEEDOR> proveedores = new List<CapaEntidadBE.PROVEEDOR>();
 
             foreach (DataRow item in tabla.Rows)
@@ -26,5 +26,6 @@ namespace CapaAccesoDatosDAL
             }
             return proveedores;
         }
+
     }
 }

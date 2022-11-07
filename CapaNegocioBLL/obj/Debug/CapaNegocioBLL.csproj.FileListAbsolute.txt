@@ -20,3 +20,14 @@ C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaNegocioBLL\obj\Deb
 C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaNegocioBLL\obj\Debug\CapaNegocioBLL.csproj.CopyComplete
 C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaNegocioBLL\obj\Debug\CapaNegocioBLL.dll
 C:\Users\rmija\Desktop\Proyecto final dw\CapaPresentacion\CapaNegocioBLL\obj\Debug\CapaNegocioBLL.pdb
+C:\Users\Cristian Brito\Desktop\WEB-11.22\AppNetDW\CapaNegocioBLL\bin\Debug\CapaNegocioBLL.dll
+C:\Users\Cristian Brito\Desktop\WEB-11.22\AppNetDW\CapaNegocioBLL\bin\Debug\CapaNegocioBLL.pdb
+C:\Users\Cristian Brito\Desktop\WEB-11.22\AppNetDW\CapaNegocioBLL\bin\Debug\CapaAccesoDatosDAL.dll
+C:\Users\Cristian Brito\Desktop\WEB-11.22\AppNetDW\CapaNegocioBLL\bin\Debug\CapaEntidadBE.dll
+C:\Users\Cristian Brito\Desktop\WEB-11.22\AppNetDW\CapaNegocioBLL\bin\Debug\CapaAccesoDatosDAL.pdb
+C:\Users\Cristian Brito\Desktop\WEB-11.22\AppNetDW\CapaNegocioBLL\bin\Debug\CapaEntidadBE.pdb
+C:\Users\Cristian Brito\Desktop\WEB-11.22\AppNetDW\CapaNegocioBLL\obj\Debug\CapaNegocioBLL.csproj.AssemblyReference.cache
+C:\Users\Cristian Brito\Desktop\WEB-11.22\AppNetDW\CapaNegocioBLL\obj\Debug\CapaNegocioBLL.csproj.CoreCompileInputs.cache
+C:\Users\Cristian Brito\Desktop\WEB-11.22\AppNetDW\CapaNegocioBLL\obj\Debug\CapaNegocioBLL.csproj.CopyComplete
+C:\Users\Cristian Brito\Desktop\WEB-11.22\AppNetDW\CapaNegocioBLL\obj\Debug\CapaNegocioBLL.dll
+C:\Users\Cristian Brito\Desktop\WEB-11.22\AppNetDW\CapaNegocioBLL\obj\Debug\CapaNegocioBLL.pdb

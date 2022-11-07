@@ -12,6 +12,7 @@ namespace CapaAccesoDatosDAL
     {
         private Acceso acceso = new Acceso();
 
+
         public List<CapaEntidadBE.PACIENTE> listar()
         {
             DataTable tabla = acceso.leer("paciente_listar", null);
@@ -30,7 +31,7 @@ namespace CapaAccesoDatosDAL
                 paciente.Telefono = registro["telefono"].ToString();
                 paciente.Fecha_inicio_cobertura = registro["fecha_inicio_cobertura"].ToString();
                 paciente.Monto_de_cobertura = registro["monto_de_cobertura"].ToString();
-
+                paciente.Estado = registro["estado"].ToString();
                 pacientes.Add(paciente);
             }
 
@@ -52,7 +53,7 @@ namespace CapaAccesoDatosDAL
             paciente.Telefono = registro["telefono"].ToString();
             paciente.Fecha_inicio_cobertura = registro["fecha_inicio_cobertura"].ToString();
             paciente.Monto_de_cobertura = registro["monto_de_cobertura"].ToString();
-
+            paciente.Estado = registro["estado"].ToString();
             return paciente;
         }
 
@@ -70,7 +71,7 @@ namespace CapaAccesoDatosDAL
             parameters.Add(acceso.crearParamentro("@tel", paciente.Telefono));
             parameters.Add(acceso.crearParamentro("@fe_i_c", paciente.Fecha_inicio_cobertura));
             parameters.Add(acceso.crearParamentro("@mon", paciente.Monto_de_cobertura));
-
+            parameters.Add(acceso.crearParamentro("@est", paciente.Estado));
             return acceso.ecribir("paciente_insertar", parameters);
 
         }
@@ -86,7 +87,7 @@ namespace CapaAccesoDatosDAL
             parameters.Add(acceso.crearParamentro("@tel", paciente.Telefono));
             parameters.Add(acceso.crearParamentro("@fe_i_c", paciente.Fecha_inicio_cobertura));
             parameters.Add(acceso.crearParamentro("@mon", paciente.Monto_de_cobertura));
-
+            parameters.Add(acceso.crearParamentro("@est", paciente.Estado));
             return acceso.ecribir("paciente_editar", parameters);
         }
 

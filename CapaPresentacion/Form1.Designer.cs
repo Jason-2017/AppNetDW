@@ -158,6 +158,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(208, 34);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(267, 22);
@@ -286,8 +287,9 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(179, 40);
             this.button3.TabIndex = 11;
-            this.button3.Text = "Actualizar";
+            this.button3.Text = "Editar";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
