@@ -20,7 +20,12 @@
       "ProjectGuid": "c7e7d591-4995-4b42-b8fc-360b4a571725",
       "DisplayName": "CapaNegocioBLL",
       "ColorIndex": 3
+    },
+    "15fb0893-8697-42fb-a7b7-b9b09816ab28": {
+      "ProjectGuid": "15fb0893-8697-42fb-a7b7-b9b09816ab28",
+      "DisplayName": "WebServiceHospital",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }

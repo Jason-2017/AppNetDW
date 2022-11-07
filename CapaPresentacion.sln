@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaEntidadBE", "CapaEntida
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaNegocioBLL", "CapaNegocioBLL\CapaNegocioBLL.csproj", "{C7E7D591-4995-4B42-B8FC-360B4A571725}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceHospital", "WebServiceHospital\WebServiceHospital.csproj", "{15FB0893-8697-42FB-A7B7-B9B09816AB28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C7E7D591-4995-4B42-B8FC-360B4A571725}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7E7D591-4995-4B42-B8FC-360B4A571725}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7E7D591-4995-4B42-B8FC-360B4A571725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15FB0893-8697-42FB-A7B7-B9B09816AB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15FB0893-8697-42FB-A7B7-B9B09816AB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15FB0893-8697-42FB-A7B7-B9B09816AB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15FB0893-8697-42FB-A7B7-B9B09816AB28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
