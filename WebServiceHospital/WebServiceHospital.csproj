@@ -86,6 +86,20 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaAccesoDatosDAL\CapaAccesoDatosDAL.csproj">
+      <Project>{cc06b6a6-bddf-48c1-a0d6-07df21bb4e09}</Project>
+      <Name>CapaAccesoDatosDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaEntidadBE\CapaEntidadBE.csproj">
+      <Project>{a25682d9-93e1-4d8e-9bcf-a15b837a8213}</Project>
+      <Name>CapaEntidadBE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaNegocioBLL\CapaNegocioBLL.csproj">
+      <Project>{c7e7d591-4995-4b42-b8fc-360b4a571725}</Project>
+      <Name>CapaNegocioBLL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

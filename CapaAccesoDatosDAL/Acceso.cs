@@ -68,7 +68,9 @@ namespace CapaAccesoDatosDAL
         {
             abrir();
             var command = CrearComando(nombre, parametros);
-            return Convert.ToInt32(command.ExecuteScalar());
+            var res = Convert.ToInt32(command.ExecuteScalar());
+            cerrar();
+            return res ;
         }
 
         public int ecribir(string nombre, List<SqlParameter> paramentros)
@@ -80,9 +82,10 @@ namespace CapaAccesoDatosDAL
             {
                 filasAfectadas = comando.ExecuteNonQuery();
             }
-            catch
+            catch (Exception ex)
             {
-                filasAfectadas = -1;
+                Debug.WriteLine(ex.ToString());
+                //filasAfectadas = -1;
             }
             cerrar();
             return filasAfectadas;
@@ -104,6 +107,52 @@ namespace CapaAccesoDatosDAL
             parametro.Value = valor;
             parametro.DbType = DbType.Int32;
             return parametro;
+        }
+
+        public SqlParameter crearParamentro(string nombre, DateTime valor)
+        {
+            SqlParameter parametro = new SqlParameter();
+            parametro.ParameterName = nombre;
+            parametro.Value = valor;
+            parametro.DbType = DbType.Date;
+            return parametro;
+        }
+        public CapaEntidadBE.WS_CONSULTAPROVEEDOR consultarWS1(string nombre, List<SqlParameter> parametros = null) {
+
+            CapaEntidadBE.WS_CONSULTAPROVEEDOR obj = new CapaEntidadBE.WS_CONSULTAPROVEEDOR();
+            abrir();
+            var command = CrearComando(nombre, parametros);
+            SqlDataReader reader = command.ExecuteReader();
+            //Debug.WriteLine(reader);
+            int count = reader.FieldCount;
+            //while (reader.Read())
+            //{
+            //    for (int i = 0; i < count; i++)
+            //    {
+            //        Debug.WriteLine(reader.GetValue(i));
+            //    }
+            //}
+
+            reader.Read();
+            obj.nitProveedor = reader.GetValue(0).ToString();
+            obj.codigoPacienteConsultado = reader.GetValue(1).ToString();
+            obj.fechaCoberturaConsultada = Convert.ToDateTime(reader.GetValue(2));
+            obj.respuestaServicioWeb = reader.GetValue(3).ToString();
+            obj.fechaConsulta =  Convert.ToDateTime(reader.GetValue(4));
+            cerrar();
+            return obj;
+        }
+
+        public string consultarWS2(string nombre, List<SqlParameter> parametros = null) {
+            abrir();
+            var command = CrearComando(nombre, parametros);
+            SqlDataReader reader = command.ExecuteReader();
+
+            reader.Read();
+            string response = reader.GetString(0);
+            cerrar();
+
+            return response;
         }
 
     }

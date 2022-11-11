@@ -44,6 +44,8 @@
     <Compile Include="PACIENTE.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PROVEEDOR.cs" />
+    <Compile Include="WS_CONSULTAAFILIADO.cs" />
+    <Compile Include="WS_CONSULTAPROVEEDOR.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CapaAccesoDatosDAL\CapaAccesoDatosDAL.csproj">

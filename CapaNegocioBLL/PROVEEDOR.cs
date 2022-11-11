@@ -38,6 +38,13 @@ namespace CapaNegocioBLL
             res = mp.eliminar(idProveedor);
             return res;
         }
+
+        public int ExisteProveedor(string nit) 
+        {
+            int res;
+            res = mp.ExisteProveedor(nit);
+            return res;
+        }
         
     }
 }
